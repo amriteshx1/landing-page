@@ -176,20 +176,33 @@ button.box1{
   border-radius: 8px;
 }
 
-.content{
-    background-color: royalblue;
-    padding: 50px;
-    border-radius: 25px;
-    width: 900px;
-    
-}
-
 .semicontainer2{
     display: flex;
     justify-content: space-around;
     padding: 50px;
-
 }
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: royalblue;
+    padding: 50px;
+    border-radius: 25px;
+    width: 900px; 
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 25%;
+}
+.box1{
+    height: 50%;
+    width: 50%;
+}
+
 
 .footer{
     background-color: #1F2937;
